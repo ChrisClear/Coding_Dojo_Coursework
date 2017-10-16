@@ -1,6 +1,6 @@
 # Current Stack Being Worked On
 
-**Python.**Currently creating and implementing Full Stack Web Applications.
+**Python.** Currently creating and implementing Full Stack Web Applications.
 
 ## Web Fundamentals Corriculum
 
