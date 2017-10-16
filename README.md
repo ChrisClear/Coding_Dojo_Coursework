@@ -53,7 +53,7 @@ Learn to add a MySQL database to your project.
 >Learn to move your code (previously hosted on your computer) to the web so everyone can see the product of your hard work!
 You will be required to deploy your belt exam.
 
-**_Belt Exam:_**
+**Belt Exam:**
 
 >On Wednesday of week 4 you'll be ready to take your belt exam.
 Your instructor will give you more details as the date approaches.
@@ -62,10 +62,10 @@ The exam is open-web – meaning you have all of your previous code and the enti
 Retake your belt exam
 You can retake the belt exam as many times as you need during the following days.
 
-**_Do a project:_**
+**Do a project:**
 
 >After passing your belt exam, you're ready to do a project!
 Your project is your motivation to earn your belt. Complete your belt quickly in order to spend as much time as possible working on a fun project. Ask your instructor for project ideas if you need help.
 Create anything you want using your new skills. The sky's the limit!
 
-**_More Corriculums Will Be Added As Progress Is Made Throughout The Dojo_**
+## **_More Corriculums Will Be Added As Progress Is Made Throughout The Dojo_**
