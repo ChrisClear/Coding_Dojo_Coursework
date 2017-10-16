@@ -61,8 +61,7 @@ Try not to worry about this for now. The exam is low-pressure and can be retaken
 <<<<<<< HEAD
 The exam is open-web – meaning you have all of your previous code and the entire internet at your disposal!
 =======
-The exam is open-web â€“ meaning you have all of your previous code and the entire internet at your disposal!
->>>>>>> 6909cba350448bd917f77a469de0ca4261fd5336
+The exam is open-web meaning you have all of your previous code and the entire internet at your disposal!
 Retake your belt exam
 You can retake the belt exam as many times as you need during the following days.
 
