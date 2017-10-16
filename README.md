@@ -58,9 +58,7 @@ You will be required to deploy your belt exam.
 >On Wednesday of week 4 you'll be ready to take your belt exam.
 Your instructor will give you more details as the date approaches.
 Try not to worry about this for now. The exam is low-pressure and can be retaken as many times as you need.
-<<<<<<< HEAD
 The exam is open-web – meaning you have all of your previous code and the entire internet at your disposal!
-=======
 The exam is open-web meaning you have all of your previous code and the entire internet at your disposal!
 Retake your belt exam
 You can retake the belt exam as many times as you need during the following days.
