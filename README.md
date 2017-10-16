@@ -1,12 +1,14 @@
-# Coding Dojo Coursework
+# Current Stack Being Worked On
 
-Current stack being worked on is Python. Learning with and creating fullstack appliactions with Django. 
+Python, Currently creating and implementing fullstack web applications.  
 
 ## Web Fundamentals Corriculum
 
+_Soon to be updated_
+
 ## Python/Django Corriculum
 
-**_Week 1:_**
+###### **_Week 1:_**
 
 **Fundamentals:**
 
@@ -19,7 +21,7 @@ Frameworks like Django, Rails, Angular, and iOS are built using an object orient
 Intro to Flask:
 Learn how to make a web server using the Flask framework. You'll create web pages that can accept data sent from a client and return a response. This quick intro will take about 2 days.
 
-**_Week 2:_**
+###### **_Week 2:_**
 
 **MySQL:**
 
@@ -35,7 +37,7 @@ The framework you've all been waiting for!
 You will learn and use code modularization to organize your code according to the purpose it serves.
 Learn to build a project in Django.
 
-**_Week 3:_**
+###### **_Week 3:_**
 
 **Django:**
 
@@ -44,7 +46,7 @@ Learn to store data in a SQLite database.
 Learn to use a object relational mapping (ORM) to communicate with your database.
 Learn to add a MySQL database to your project.
 
-**_Week 4:_**
+###### **_Week 4:_**
 
 **Deployment:**
 
