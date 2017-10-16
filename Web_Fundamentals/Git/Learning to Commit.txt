@@ -1,0 +1,16 @@
+1. cd desktop/
+2. md gittest
+3. cd gittest
+4. git init
+5. dir index.html
+6. touch styles.css
+7. touch aboutMe.txt
+8. git commit -m "Learning to Commit"
+9. Open notepad and write "My name is Chris! I enjoy indie music and rainy days."
+10. git commit -m "updated aboutMe"
+11. Open notepad and write "My favorite movie is Spirited Away by Hayao Miyazaki.
+12. git commit -m "added favorite movie to aboutMe"
+13. git log
+14. git reset --hard HEAD~1
+15. Open notepad and change favorite movie to book, Maximum Ride.
+16. git commit -m "added favorite movie to aboutMe"

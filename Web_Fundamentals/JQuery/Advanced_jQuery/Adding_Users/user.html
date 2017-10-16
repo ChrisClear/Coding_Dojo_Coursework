@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>jQuery Intermediate - Adding User - Coding Dojo</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="something">
+	<meta name="author" content="Elliott Hindman">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="body">
+			<h1>jQuery Demo - Adding a New User</h1>
+			<p>This demo uses the .val() and .append() .on() functions in jQuery to add new users to the table below.</p>
+			<table>
+			  <tr class="col-headings">
+			    <th>First Name</th>
+			    <th>Last Name</th>		
+			    <th>Email</th>
+			    <th>Contact #</th>
+			  </tr>
+			  <tr class="user1">
+			    <td>Clark</td>
+			    <td>Ken</td>		
+			    <td>123abc@gmail.com</td>
+			    <td>23423423423</td>
+			  </tr>
+			</table>
+			
+			<form>
+				<h2>Sign-up for our mailing list!</h2>
+				First name:
+				<input type="text" id="firstName">
+				Last name:
+				<input type="text" id="lastName">
+				Email Address:
+				<input type="text" id="email">
+				Contact Number:
+				<input type="text" id="number">
+				<button type="submit"class="add">Add User</button>
+				<button class="reset">Reset Form</button>
+			</form>
+
+			<div class="test"></div>
+		
+		</div>
+	</div>
+</body>
+</html>

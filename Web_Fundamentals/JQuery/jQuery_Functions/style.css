@@ -1,0 +1,107 @@
+// color palettes
+
+@lightblue: #44BBFF;
+@lightorange: #F6B42C;
+@lightgreen: #AAD450;
+@lightpink: #F27490;
+@navyblue: #334455;
+
+// ************
+
+* {
+	maring: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+li {
+	list-style-type: none;
+	text-align: left;
+	padding-left: 55px;
+	padding-bottom: 5px;
+}
+
+div, img, button {
+	border-radius: 4px;
+}
+
+div.container {
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+div.row {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 50px;
+    background: #DDD;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+div.col-33 {
+	display: inline-block;
+	vertical-align: top;
+	background: #EEE;
+	width: 30%;
+	button {
+		width: 90%;
+	}
+}
+
+div.min-height {
+	min-height: 150px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	max-height: 350px;
+	max-width: 525px;
+}
+
+p {
+	padding: 0px 15%;
+}
+
+button {
+	border: none;
+	padding: 10px 25px;
+	cursor: pointer;
+	color: white;
+	margin: 10px 0px;
+	font-weight: 500;
+	background: @navyblue;
+	-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline:none;
+  text-transform: uppercase;
+}
+
+button:hover {
+	background: @lightblue;
+}
+
+input {
+	padding: 8px;
+}
+
+h3.pink {
+	color: @lightpink;
+}
+
+h3.light-green {
+	color: @lightgreen;
+}
+
+h3.success {
+	color: @lightgreen;
+}

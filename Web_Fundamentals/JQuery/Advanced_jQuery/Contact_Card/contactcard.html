@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<title>Contact Card</title>
+	<link rel="stylesheet" type="text/css" href="contactcard.css">
+	<script src="jquery.min.js"></script>
+	<script src="scripts.js"></script>
+</head>
+<body>
+	<div class="main_wrap">
+		<div class="header">
+			<h1>Contact Cards</h1>
+		</div>
+		<div class="content">
+			<div class="input">
+				<form action="" class="input_form">
+					<p class="input_row row">
+						<label for="fname">First Name:</label>
+						<input type="text" name="fname" id="fname" placeholder="First Name">
+					</p>
+					<p class="input_row row">
+						<label for="fname">Last Name:</label>
+						<input type="text" name="lname" id="lname" placeholder="Last Name">
+					</p>
+					<p class="input_row row">
+						<label for="">Description:</label>
+						<textarea type="text" name="description" id="description" placeholder="Description"></textarea>
+					</p>
+					<button type="button" class="submit">Save</button>
+				</form>
+			</div><!-- 
+		 --><div class="output">
+				<div class="contact">
+					<div class="top">
+						<h2>Dexter Clark</h2>
+						<small>Click for Description</small>
+					</div>
+					<div class="desc">lorem ipsum doler sit amet</div>
+				</div>
+				<div class="contact">
+					<div class="top">
+						<h2>John Susupin</h2>
+						<small>Click for Description</small>
+					</div>
+					<div class="desc">lorem ipsum doler sit amet</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

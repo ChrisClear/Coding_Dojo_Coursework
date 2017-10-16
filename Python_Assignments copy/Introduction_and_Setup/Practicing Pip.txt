@@ -1,0 +1,8 @@
+• pip install Djano - This command begins the installation of the Django module. This command line is used to install a variety of modules used for python/pip.
+• pip list - it lists all currently installed packages  
+• pip install Django - Installs the module Django. What returns in terminal are the packages and download progress for each individual message, along with a 'successfully installed message'.
+• pip freeze - outputs the currently installed packages in requirements format.
+• cd pip - this module changes the directory to pip, but we're currently in the pip directory.
+• pip uninstall Django - uninstalls the recently installed Django module with a second confirmation message to continue.
+• pip show Django - shows the information of whatever installed package is directed at, since Django has been uninstalled, nothing shows up.
+• pip search Flask - the search command allows it to search for a database of packaages in Python's central package repository. (PyPI). Such as for Django, it will search for packages with the term Django and it will return the results matching Django. 

@@ -1,0 +1,19 @@
+1. Open CMD
+2. cd Desktop/
+3. md test
+4. cd test
+5. copy nul index.html
+6. copy nul styles.css
+7. copy nul commands.txt
+8. copy index.html index_2.html
+9. del /p styles.css
+10. Y
+11. cd ..
+12. md destination
+13. move test/index_2.html destination/index_2.html
+14. cd destination
+15. dir destination
+16. del /p destination
+17. Y
+
+ 

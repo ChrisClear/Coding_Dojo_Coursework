@@ -1,0 +1,14 @@
+C:\Users\chris\Desktop\DojoAssignments>dir /b /s                                                                        
+C:\Users\chris\Desktop\DojoAssignments\indentation.html                                                                
+C:\Users\chris\Desktop\DojoAssignments\iOS                                                                              
+C:\Users\chris\Desktop\DojoAssignments\MEAN                                                                            
+C:\Users\chris\Desktop\DojoAssignments\netCore                                                                          
+C:\Users\chris\Desktop\DojoAssignments\Python                                                                           
+C:\Users\chris\Desktop\DojoAssignments\Ruby                                                                             
+C:\Users\chris\Desktop\DojoAssignments\WebFundamentals                                                                  
+C:\Users\chris\Desktop\DojoAssignments\iOS\about.txt                                                                   
+C:\Users\chris\Desktop\DojoAssignments\MEAN\about.txt                                                                   
+C:\Users\chris\Desktop\DojoAssignments\netCore\about.txt                                                                
+C:\Users\chris\Desktop\DojoAssignments\Python\about.txt                                                                
+C:\Users\chris\Desktop\DojoAssignments\Ruby\about.txt                                                                   
+C:\Users\chris\Desktop\DojoAssignments\WebFundamentals\about.txt                                                                                                          

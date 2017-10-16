@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>jQuery Demos!</title>
+	<meta name="description" content="A demo of 18 common and useful jQuery commands">
+	<meta name="author" content="Elliott Hindman">
+	<meta charset="UTF-8">
+	<link rel="stylesheet/less" type="text/css" href="css/style.less" />
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.3.1/less.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</head>
+<body>	
+	<div class="container">
+		
+		<!-- Page Intro -->
+		<div class="row">
+			<h1>Coding Dojo Jquery Functions</h1>
+			<p>Let's play with a few jQuery functions to see what this JavaScript library is capable of!</p>
+			<p>Before we begin, would you like to change the background color of this page?</p>
+			<button id="change">Click Me!</button>	
+		</div>
+
+		<!-- Show and Hide Functions -->
+		<div class="row">
+			<h1>.show() & .hide() Demos!</h1>
+			<p>Click on the button to show the hidden content</p>
+			<div class="hidden"> 
+				<!-- <img src="img/beach.jpg" height="350" width="526"> -->
+				<p>God knows they're squinters. You're losing blood, aren't you? Gob: Probably, my socks are wet. That was Tom Cruise, the actor. Lucille: They said he was some kind of scientist. Heyyyy uncle father Oscar. He… she… what's the difference? Oh hear, hear. In the dark, it all looks the same. Someone order 140 pounds of upper body strength?
+				</p>
+				<button id="hide">Hide</button>
+			</div>
+			<button id="show">Show</button>
+		</div>
+
+		<!-- Val Demo -->
+		<div class="row">
+			<h1>.val(), .append() & .focus() Demos!</h1>
+			<p>Type something below and hit submit!</p>
+			<input type="text" name="user-input">
+			<button id="get-input">Submit!</button>
+			<button class="clear">Clear</button>
+			<div class="output"></div>
+		</div>
+		
+		<!-- Toggle Demo -->
+		<div class="row">
+			<h1>.toggle() Demo!</h1>
+			<h4>Click on the button to take a trip to the beach.</h4>
+			
+			<div class="col-33">
+				<img src="img/birds.jpg" height="350" width="555" alt="beach" class="beach hidden">
+				<button class="toggle">Toggle</button>
+			</div>
+
+			<div class="col-33">
+				<img src="img/rocks.jpg" height="350" width="525" alt="beach" class="beach hidden">
+				<button class="toggle">Toggle</button>
+			</div>
+
+			<div class="col-33">
+				<img src="img/beach.jpg" height="350" width="525" alt="beach" class="beach hidden">
+				<button class="toggle">Toggle</button>
+			</div>
+		</div>
+
+		<!-- fadeOut/fadeIn Demos -->
+		<div class="row">
+			<h1>.fadeOut() & fadeIn() Demos</h1>
+			<p>Let's check-off some items on our to-do list!</p>
+			
+			<div class="col-33 min-height">
+				<h3>To-Do!</h3>
+				<ul>
+					<li><input type="checkbox">Learn HTML</li>
+					<li><input type="checkbox">Learn CSS</li>
+					<li><input type="checkbox">Learn LESS</li>
+					<li><input type="checkbox">Learn jQuery</li>
+					<li id="last"><input type="checkbox">Learn jQuery UI</li>
+					<p class="success hidden">You finished all items</p>
+					<h3 class="success hidden">Great Job!</h3>
+				</ul>
+			</div>	
+		</div>
+
+		<!-- Hover & Text Demo -->
+		<div class="row">
+			<h1>.hover() and .css() Demos!</h1>
+			<p>Try to Hover Over this Image:</p>
+			<img src="img/graffitti.jpg" height="350" width="525" id="graffitti">
+			<h3>What's happening here?</h3>
+		</div>
+
+	</div>
+</body>
+</html>

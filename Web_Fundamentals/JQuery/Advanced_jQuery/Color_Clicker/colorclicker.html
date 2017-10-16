@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Color Clicker</title>
+	<link rel="stylesheet" href="colorclicker.css">
+	<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+	<script src="colorclicker.js"></script>
+</head>
+<body>
+	<div class='wrapper'>
+		<h1>The Codingdojo ColorClicker!</h1>
+		<div class='large_box' id="box0">
+			<div class='side_box' id="box1"></div>
+			<div class='middle_box' id="box2"></div>
+			<div class='side_box' id="box3"></div>
+		</div>
+		<button onclick="resetColors()">Reset Colors</button>
+		<h2>Rules:</h2>
+		<h3>1. Clicking the big box should change background colors of both the small and large boxes!</h3>
+		<h3>2. Clicking the middle small box should change the color of the big box!</h3>
+		<h3>3. Clicking the left or right small box should change the color of that box's siblings</h3>
+	</div>
+</body>
+</html>
