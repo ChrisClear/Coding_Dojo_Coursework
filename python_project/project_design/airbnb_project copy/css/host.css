@@ -1,0 +1,122 @@
+body {
+  height: 100%;
+  background: none, url('../images/blue_city.jpg') rgb(27, 27, 27);
+  background-repeat: repeat, repeat;
+  background-size: cover, cover;
+  background-position: center center, center center;
+  background-attachment: scroll, scroll;
+  font: 400 1em/1.38 Montserrat;
+  color: #ffffff;
+}
+
+.container {
+  float: left;
+}
+
+.image {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 8;
+  width: 83px;
+  height: auto;
+  margin: -62px 0 0 10.83073%;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  overflow: hidden;
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+._element {
+  width: 79.1692708333%;
+  height: 594px;
+  margin: 56px 0 0 10.83073%;
+}
+
+._input {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 2;
+  width: 13.5833333333%;
+  height: 21px;
+  margin: -39px 0 0 24.7474%;
+  padding: 0 10px;
+  background-color: #ffffff;
+  font-size: 0.813em;
+  color: rgb(0, 0, 0);
+}
+
+.container-1 {
+  position: relative;
+  z-index: 0;
+  width: 80%;
+  height: 62px;
+  margin: -3px 0 0 10%;
+}
+
+._button-1 {
+  z-index: 1;
+  margin: -42px 0 0 16.33073%;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  font-size: 1.375em;
+  font-weight: 700;
+  text-align: left;
+  color: #ff5a5f;
+}
+
+._button-2 {
+  z-index: 7;
+  width: 5.1666666666%;
+  height: 27px;
+  margin: -39px 0 0 49.1992199999%;
+  border-radius: 3px;
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+}
+
+._button-3 {
+  z-index: 3;
+  height: 27px;
+  margin: -39px 0 0 56.79948%;
+  border-radius: 3px;
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+}
+
+._button-4 {
+  z-index: 4;
+  height: 27px;
+  margin: -39px 0 0 62.79948%;
+  border-radius: 3px;
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+}
+
+._button-5 {
+  z-index: 5;
+  height: 27px;
+  margin: -39px 0 0 71.73307%;
+  border-radius: 3px;
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+}
+
+._button-6 {
+  z-index: 6;
+  height: 27px;
+  margin: -39px 0 0 78%;
+  border-radius: 3px;
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+}

@@ -1,0 +1,197 @@
+body {
+  height: 100%;
+  background: none, url('../images/blue_city.jpg') rgb(255, 255, 255);
+  background-repeat: repeat, repeat;
+  background-size: cover, cover;
+  background-position: center center, center center;
+  background-attachment: scroll, scroll;
+  font: 400 1.563em/1.38 Montserrat;
+  color: #ffffff;
+}
+
+.airbnb {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 1;
+  margin: -42px 0 0 16.33073%;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  font-size: 0.88em;
+  font-weight: 700;
+  text-align: left;
+  color: #ff5a5f;
+}
+
+.airbnblogo {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 9;
+  width: 83px;
+  height: auto;
+  margin: -62px 0 0 10.83073%;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  overflow: hidden;
+}
+
+.header {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 80%;
+  height: 62px;
+  margin: -3px 0 0 10%;
+}
+
+.host {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 7;
+  width: 5.1666666666%;
+  height: 27px;
+  margin: -39px 0 0 49.1992199999%;
+  border-radius: 3px;
+  font-size: 0.64em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.maintext {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 10;
+  margin: -670px 0 0 15.19921875%;
+  font-size: 1.2em;
+  line-height: 1.88;
+  color: rgb(255, 255, 255);
+}
+
+.messages {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 4;
+  height: 27px;
+  margin: -39px 0 0 62.79948%;
+  border-radius: 3px;
+  font-size: 0.64em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.profile {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 5;
+  height: 27px;
+  margin: -39px 0 0 71.73307%;
+  border-radius: 3px;
+  font-size: 0.64em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.searchbar {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 2;
+  width: 13.5833333333%;
+  height: 21px;
+  margin: -39px 0 0 24.7474%;
+  padding: 0 10px;
+  background-color: #ffffff;
+  font-size: 0.52em;
+  color: rgb(0, 0, 0);
+}
+
+.signup-login {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 6;
+  height: 27px;
+  margin: -39px 0 0 78%;
+  border-radius: 3px;
+  font-size: 0.64em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.smallertext {
+  position: relative;
+  float: left;
+  z-index: 11;
+  margin: -614px 0 0 15.19921875%;
+  font: 300 1em/0.88 Ubuntu;
+  color: rgb(204, 204, 204);
+}
+
+.smallertext p {
+  margin-bottom: 1em;
+}
+
+.trips {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 3;
+  height: 27px;
+  margin: -39px 0 0 56.79948%;
+  border-radius: 3px;
+  font-size: 0.64em;
+  text-align: center;
+  color: #ffffff;
+}
+
+._button {
+  display: block;
+  visibility: hidden;
+  position: relative;
+  float: left;
+  height: 60px;
+  margin-top: -471px;
+  border: 2px solid #cccccc;
+  border-radius: 60px;
+  font-size: 0.88em;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.body-1 {
+  position: relative;
+  float: left;
+  z-index: 8;
+  width: 80%;
+  height: 713px;
+  margin-left: 10%;
+}
+
+._button-1 {
+  z-index: 12;
+  width: 8.4166666666%;
+  margin-left: 15.16667%;
+}
+
+._button-2 {
+  z-index: 14;
+  width: 13.5833333333%;
+  margin-left: 28.83073%;
+}
+
+._button-3 {
+  z-index: 13;
+  width: 13.8333333333%;
+  margin-left: 47%;
+}
+
+._button-4 {
+  z-index: 15;
+  width: 24.5%;
+  margin-left: 63.58203%;
+}
