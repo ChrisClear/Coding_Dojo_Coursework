@@ -1,0 +1,16 @@
+C:\Users\centertr01\dojo\c\callingcard\bin\Debug\netcoreapp1.1\callingcard.deps.json
+C:\Users\centertr01\dojo\c\callingcard\bin\Debug\netcoreapp1.1\callingcard.runtimeconfig.json
+C:\Users\centertr01\dojo\c\callingcard\bin\Debug\netcoreapp1.1\callingcard.runtimeconfig.dev.json
+C:\Users\centertr01\dojo\c\callingcard\bin\Debug\netcoreapp1.1\callingcard.dll
+C:\Users\centertr01\dojo\c\callingcard\bin\Debug\netcoreapp1.1\callingcard.pdb
+C:\Users\centertr01\dojo\c\callingcard\obj\Debug\netcoreapp1.1\callingcard.AssemblyInfo.cs
+C:\Users\centertr01\dojo\c\callingcard\obj\Debug\netcoreapp1.1\callingcard.dll
+C:\Users\centertr01\dojo\c\callingcard\obj\Debug\netcoreapp1.1\callingcard.pdb
+C:\Users\chris\Desktop\C#N_Calling_Card\bin\Debug\netcoreapp1.1\callingcard.deps.json
+C:\Users\chris\Desktop\C#N_Calling_Card\bin\Debug\netcoreapp1.1\callingcard.runtimeconfig.json
+C:\Users\chris\Desktop\C#N_Calling_Card\bin\Debug\netcoreapp1.1\callingcard.runtimeconfig.dev.json
+C:\Users\chris\Desktop\C#N_Calling_Card\bin\Debug\netcoreapp1.1\callingcard.dll
+C:\Users\chris\Desktop\C#N_Calling_Card\bin\Debug\netcoreapp1.1\callingcard.pdb
+C:\Users\chris\Desktop\C#N_Calling_Card\obj\Debug\netcoreapp1.1\callingcard.AssemblyInfo.cs
+C:\Users\chris\Desktop\C#N_Calling_Card\obj\Debug\netcoreapp1.1\callingcard.dll
+C:\Users\chris\Desktop\C#N_Calling_Card\obj\Debug\netcoreapp1.1\callingcard.pdb

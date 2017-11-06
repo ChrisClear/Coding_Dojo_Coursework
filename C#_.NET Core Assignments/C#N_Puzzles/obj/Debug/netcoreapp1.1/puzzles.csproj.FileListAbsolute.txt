@@ -1,0 +1,8 @@
+c:\Users\centertr01\dojo\c\puzzles\bin\Debug\netcoreapp1.1\puzzles.deps.json
+c:\Users\centertr01\dojo\c\puzzles\bin\Debug\netcoreapp1.1\puzzles.runtimeconfig.json
+c:\Users\centertr01\dojo\c\puzzles\bin\Debug\netcoreapp1.1\puzzles.runtimeconfig.dev.json
+c:\Users\centertr01\dojo\c\puzzles\bin\Debug\netcoreapp1.1\puzzles.dll
+c:\Users\centertr01\dojo\c\puzzles\bin\Debug\netcoreapp1.1\puzzles.pdb
+c:\Users\centertr01\dojo\c\puzzles\obj\Debug\netcoreapp1.1\puzzles.AssemblyInfo.cs
+c:\Users\centertr01\dojo\c\puzzles\obj\Debug\netcoreapp1.1\puzzles.dll
+c:\Users\centertr01\dojo\c\puzzles\obj\Debug\netcoreapp1.1\puzzles.pdb

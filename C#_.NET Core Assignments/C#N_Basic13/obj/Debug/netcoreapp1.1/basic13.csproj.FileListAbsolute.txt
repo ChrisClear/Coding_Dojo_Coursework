@@ -1,0 +1,8 @@
+c:\Users\centertr01\dojo\c\basic13\bin\Debug\netcoreapp1.1\basic13.deps.json
+c:\Users\centertr01\dojo\c\basic13\bin\Debug\netcoreapp1.1\basic13.runtimeconfig.json
+c:\Users\centertr01\dojo\c\basic13\bin\Debug\netcoreapp1.1\basic13.runtimeconfig.dev.json
+c:\Users\centertr01\dojo\c\basic13\bin\Debug\netcoreapp1.1\basic13.dll
+c:\Users\centertr01\dojo\c\basic13\bin\Debug\netcoreapp1.1\basic13.pdb
+c:\Users\centertr01\dojo\c\basic13\obj\Debug\netcoreapp1.1\basic13.AssemblyInfo.cs
+c:\Users\centertr01\dojo\c\basic13\obj\Debug\netcoreapp1.1\basic13.dll
+c:\Users\centertr01\dojo\c\basic13\obj\Debug\netcoreapp1.1\basic13.pdb
