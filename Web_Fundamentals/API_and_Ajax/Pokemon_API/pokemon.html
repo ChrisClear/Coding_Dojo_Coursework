@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--===========================================================================++++=-->
+<!--  Created: June 2 2017 by Troy Center and Mounika Tunga and Nikki Chimedbavuu   -->
+<!--  COding Dojo practice with external images, paired programming.                -->
+<!--==========================================================================++++==-->
+
+   <head>
+        <meta name="description" content="Using Ajax to get info on Pokemon from the PokeAPI">
+        <meta charset="utf-8">
+        <title>Pokemon Info</title>
+        <link rel="stylesheet" type="text/css" href="pokemon.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/pokemon.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    </head>
+    <body>
+        <section id="titlebar">
+            <h1>Pokemon Info Getter</h1> 
+            <p>Click any Pokemon to get it's information from the pokeapi in the red box on the right.</p>
+        </section>
+        <section id="pokemain">
+            <div id="pokearea">
+                <!--This area is populated using a js for loop "getPokes". -->
+            </div>
+            <div id="pokeinfo">
+                <h3 id="pokename">Pokemon name:</h3>
+                <!--This is the red bordered white space on the right side, to display the poke info.-->
+                <!-- add NAME here -->
+                <img id="mainpokeimage" src='https://avatars3.githubusercontent.com/u/19692032?v=3' alt='Poke image'> <!-- This will come from the API -->
+                <div id="dividerbar"></div>
+                <h3>Types:</h3>
+                <ul id="poketypes">
+                <!-- add LI types here -->
+                </ul> 
+                <h3 id="height">Height:</h3>
+                <!-- add height here -->
+                <h3 id="weight">Weight:</h3>
+                <!-- add weight here -->
+                <h3 id="abilities">Abilities:</h3>
+                <!-- add abilities here -->
+                <h3 id="attackdefense">Attack/Defense:</h3>
+                <!-- add attack and defense here -->
+            </div>
+        </section>
+    </body>
+    <footer>
+        <p>by Troy Center June 2017, Coding Dojo</p>
+    </footer>
+</html>
+
+
+

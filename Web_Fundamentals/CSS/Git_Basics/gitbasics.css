@@ -1,0 +1,202 @@
+/***************************************************************/
+/* Created: 5/27/2017 by Troy Center, troycenter1@gmail.com.   */
+/* Coding Dojo HTML CSS "Git Basics" project                   */
+/***************************************************************/
+
+/***************************************************/
+/*               CSS reset settings                */
+/***************************************************/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/***************************************************/
+/*               Header                            */
+/***************************************************/
+#mainbody{
+    background-color: #dddfd3;
+    height: 850px;
+    width: 970px;
+    padding: 15px;
+}
+#gitbasics{
+    background-color: #39b0ac;
+    height: 70px; 
+    width: 940px;
+}
+#gitbasics h1{
+    display: inline-block;
+    margin-top: 20px;
+}
+#gitbasics img{
+    height: 50px;
+    width: 50px;
+    margin: -10px 5px 5px 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#gitbasics nav{
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+#gitbasics ul{
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+#gitbasics li{
+    display:inline-block;
+    font-size: .8em;
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+/***************************************************/
+/*           Main Section                          */
+/***************************************************/
+
+#mainsection{
+    height: 640px;
+    width: 910px;
+    background-color: #c9d2a7; 
+    margin-top: 15px;
+    padding: 15px;
+    display: block;
+}
+#mainsection article{
+    color: #b1ccdc;
+    background-color: #114d69;
+}
+#mainsection section{
+    display: inline-block;
+}
+#mainsection h2,#mainsection h3,#mainsection p{
+    padding: 10px;
+}
+
+/***************************************************/
+/*        Two columns for the articles             */
+/*        Three rows for the articles             */
+/***************************************************/
+
+#articlecolumn1{
+    display: inline-block;
+    height: 660px;
+    width: 250px;
+    vertical-align: top;
+}
+#articlecolumn2{
+    display: inline-block;
+    height: 660px;
+    width: 600px;
+    vertical-align: top;
+    margin-left: 20px;
+}
+#articlerow0{
+    display: inline-block;
+}
+#articlerow1{
+    height: 180px;
+    display: inline-block;
+}
+#articlerow2{
+    height: 180px;
+    display: inline-block;
+    margin-top: 40px;
+}
+#articlerow3{
+    height: 180px;
+    display: inline-block;
+    margin-top: 40px;
+}
+section span{
+    color: #36b4c2;
+}
+.usedlinks{
+    color: #4040a9;
+    text-decoration: underline;
+}
+
+/***************************************************/
+/*        Articles Row 0 (what is this)            */
+/***************************************************/
+
+#whatisgit{
+    Height: 370px; 
+    width: 250px;
+    background-color: #114d69;
+}
+#whatisgithub{
+    height: 270px;
+    width: 250px;
+    background-color: #114d69;
+}
+
+/***************************************************/
+/*        Articles Row 1 (init, add, status        */
+/***************************************************/
+
+#gitinit{
+    height: 200px;
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+}
+#gitadd{
+    height: 200px;
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+#gitstatus{
+    height: 200px;
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+/***************************************************/
+/*        Articles Row 2 (commit, remote add)      */
+/***************************************************/
+
+#gitcommit{
+    height: 200px;
+    width: 285px;
+    display: inline-block;
+}
+#gitremoteadd{
+    height: 200px;
+    width: 285px;
+    display: inline-block;
+    margin-left: 20px;    
+}
+
+/***************************************************/
+/*        Articles Row 3 (push)                    */
+/***************************************************/
+
+#gitpush{
+    height: 200px;
+    width: 600px;
+    display: inline-block;    
+}
+
+/***************************************************/
+/*               Footer                            */
+/***************************************************/
+
+#learnmore{
+    height: 40px;
+    width: 940px;
+    background-color: #2ea7bd;
+    margin-top: 20px;
+    padding-top: 30px;
+    text-align: center;
+}

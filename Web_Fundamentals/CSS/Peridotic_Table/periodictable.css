@@ -1,0 +1,166 @@
+/***************************************************************/
+/* Created: 5/25/2017 by Troy Center, troycenter1@gmail.com.   */
+/* Coding Dojo HTML CSS                                        */
+/***************************************************************/
+
+/***************************************************/
+/*               CSS reset settings                */
+/***************************************************/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/***************************************************/
+/*              Page Wrapper                       */
+/***************************************************/
+#theperiodictable {
+    background-color: #eee;   
+    width: 900px;
+    height: 600px; 
+    z-index: -1;
+}
+
+/***************************************************/
+/*               Header                            */
+/***************************************************/
+
+#titlebar {
+    height: 50px; 
+    width: 900px;
+    background-image: radial-gradient(ellipse at 100px 0px, darkgreen,#eee);
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px;
+}
+#titlebar h1{
+    text-shadow: 3px 3px 3px grey;
+}
+
+/***************************************************/
+/* Top level <li> formatting, used to create grid  */
+/***************************************************/
+
+li {
+    background-color: #eee;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1px;
+    border: solid 1px grey;
+}
+
+/***************************************************/
+/*     Border text and box coloring                */
+/*  There are spacerboxes that contain an extra    */
+/*  10px to create the gap between blue and pink   */
+/*  blocks. This was just easier for me rather     */
+/*   creating a new container for the blue blocks  */
+/***************************************************/
+
+.bordertext {
+    font-size: 10px;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+.bluebox {
+    background-color: #689bff;
+    line-height: 14px;
+}
+.pinkbox {
+    background-color: #fd9a98;
+    line-height: 14px;
+}
+.pinkspacerbox{
+    margin-left: 10px;
+    background-color: #fd9a98;
+}
+.orangebox {
+    background-color: #fecb00;
+    line-height: 14px;
+}
+.greenbox {
+    background-color: #1fca21;
+    line-height: 14px;
+}
+.clearbox{
+    border: solid 1px transparent;
+    background-color: transparent;
+}
+.clearspacerbox{
+    margin-left: 10px;
+    border: solid 1px transparent;
+    background-color: transparent;
+}
+#lanthanoids{
+    margin-top: 15px;
+    border: solid 1px solid transparent;
+}
+.actinoids{
+    border: solid 1px solid transparent;
+}
+
+
+/***************************************************/
+/*     Text inside the boxes, the "elements"       */
+/***************************************************/
+
+.elementid { 
+    color: #282fb2;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.elementdetail {
+    font-size: 9px;
+    color: black;
+    text-align: center;
+}
+
+/***************************************************/
+/*   Fine Print for the actinoids and lathanoids   */
+/***************************************************/
+
+.fineprint{
+    font-size: 10px;
+    color: red;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    top: -80px;
+    left: 40px;
+}
+
+/***************************************************/
+/*   Footer                                        */
+/***************************************************/
+
+footer{
+    text-align: center;
+    position: relative;
+}
+#footerbar{
+    height: 50px; 
+    width: 900px;
+    background-image: radial-gradient(ellipse at 0px -100px, #eee,darkgreen);
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    color: goldenrod;
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+}
+#footerbar p{
+     text-shadow: 3px 3px 3px grey;
+     position: relative; 
+     top: 10px;
+}
+
+
+
+
+ 

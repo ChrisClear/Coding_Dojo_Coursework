@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--============================================================================-->
+<!--  Created: 5/25/2017 by Troy Center, troycenter1@gmail.com.                 -->
+<!--  Coding Dojo HTML CSS Training, HTML5 Semantics.                           -->
+<!--============================================================================-->
+
+   <head>
+        <meta charset="UTF-8">
+        <title>Periodic Table</title>
+        <meta name="description" content="CodingDojo Recreating the Periodic Table Image">
+        <link rel="stylesheet" type="text/css" href="periodictable.css">
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    </head>
+    <body>
+
+<!--============================================================================-->
+<!--  I chose to use uls to create this... No tables.                           -->
+<!--  I did the spacing in CSS at a high level.                                 -->
+<!--  I used classes to color the boxes.                                        -->
+<!--  Is there a way to do this with 100 lines of html code?                    -->
+<!--  I'm thinking about it. This was the easiest I could think of              -->
+<!--  before I started coding it. I was thinking about this for a few days      -->
+<!--  along with cannot use tables. THis was an optional assignment.            -->
+<!--  The image to be copied is in the folder as a bmp.                         -->
+<!--============================================================================-->
+
+        <section id="theperiodictable">
+            <header id="titlebar"> 
+                <h1>The Periodic Table</h1>
+            </header>
+            <div id="main">
+                <ul id="headerrow">
+                    <li class="clearbox"><p class="bordertext">Group Period</p></li
+                    ><li class="clearbox"><p class="bordertext">1</p></li
+                    ><li class="clearbox"><p class="bordertext">2</p></li
+                    ><li class="clearspacerbox"><p class="bordertext">3</p></li
+                    ><li class="clearbox"><p class="bordertext">4</p></li
+                    ><li class="clearbox"><p class="bordertext">5</p></li
+                    ><li class="clearbox"><p class="bordertext">6</p></li
+                    ><li class="clearbox"><p class="bordertext">7</p></li
+                    ><li class="clearbox"><p class="bordertext">8</p></li
+                    ><li class="clearbox"><p class="bordertext">9</p></li
+                    ><li class="clearbox"><p class="bordertext">10</p></li
+                    ><li class="clearbox"><p class="bordertext">11</p></li
+                    ><li class="clearbox"><p class="bordertext">12</p></li
+                    ><li class="clearbox"><p class="bordertext">13</p></li
+                    ><li class="clearbox"><p class="bordertext">14</p></li
+                    ><li class="clearbox"><p class="bordertext">15</p></li
+                    ><li class="clearbox"><p class="bordertext">16</p></li
+                    ><li class="clearbox"><p class="bordertext">17</p></li
+                    ><li class="clearbox"><p class="bordertext">18</p></li
+                ></ul>
+                <ul id="row1">
+                    <li class="clearbox"><p class="bordertext">1</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">1</p>
+                        <p class="elementid">H</p>
+                        <p class="elementdetail">1.008</p></li
+                    ><li class="clearbox"></li
+                    ><li class="clearspacerbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">2</p>
+                        <p class="elementid">He</p>
+                        <p class="elementdetail">4.0026</p></li
+                ></ul>
+                <ul id="row2">
+                    <li class="clearbox"><p class="bordertext">2</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">3</p>
+                        <p class="elementid">Li</p>
+                        <p class="elementdetail">6.94</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">4</p>
+                        <p class="elementid">Be</p>
+                        <p class="elementdetail">9.0122</p></li
+                    ><li class="clearspacerbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">5</p>
+                        <p class="elementid">B</p>
+                        <p class="elementdetail">10.81</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">6</p>
+                        <p class="elementid">C</p>
+                        <p class="elementdetail">12.011</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">7</p>
+                        <p class="elementid">N</p>
+                        <p class="elementdetail">14.007</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">8</p>
+                        <p class="elementid">O</p>
+                        <p class="elementdetail">15.999</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">9</p>
+                        <p class="elementid">F</p>
+                        <p class="elementdetail">18.998</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">10</p>
+                        <p class="elementid">Ne</p>
+                        <p class="elementdetail">20.180</p></li
+                ></ul>
+                <ul id="row3">
+                    <li class="clearbox"><p class="bordertext">3</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">11</p>
+                        <p class="elementid">NA</p>
+                        <p class="elementdetail">22.990</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">12</p>
+                        <p class="elementid">Mg</p>
+                        <p class="elementdetail">24.305</p></li
+                    ><li class="clearspacerbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">13</p>
+                        <p class="elementid">Al</p>
+                        <p class="elementdetail">26.982</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">14</p>
+                        <p class="elementid">Si</p>
+                        <p class="elementdetail">28.085</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">15</p>
+                        <p class="elementid">P</p>
+                        <p class="elementdetail">30.974</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">16</p>
+                        <p class="elementid">S</p>
+                        <p class="elementdetail">32.06</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">17</p>
+                        <p class="elementid">Cl</p>
+                        <p class="elementdetail">35.45</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">18</p>
+                        <p class="elementid">Ar</p>
+                        <p class="elementdetail">39.948</p></li
+                ></ul>
+                <ul id="row4">
+                    <li class="clearbox"><p class="bordertext">4</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">19</p>
+                        <p class="elementid">K</p>
+                        <p class="elementdetail">30.098</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">20</p>
+                        <p class="elementid">Ca</p>
+                        <p class="elementdetail">40.078</p></li
+                    ><li class="pinkspacerbox">
+                        <p class="elementdetail">21</p>
+                        <p class="elementid">Sc</p>
+                        <p class="elementdetail">44.956</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">22</p>
+                        <p class="elementid">Ti</p>
+                        <p class="elementdetail">47.867</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">24</p>
+                        <p class="elementid">V</p>
+                        <p class="elementdetail">50.942</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">24</p>
+                        <p class="elementid">Cr</p>
+                        <p class="elementdetail">51.996</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">25</p>
+                        <p class="elementid">Mn</p>
+                        <p class="elementdetail">54.938</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">26</p>
+                        <p class="elementid">Fe</p>
+                        <p class="elementdetail">55.845</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">27</p>
+                        <p class="elementid">Co</p>
+                        <p class="elementdetail">59.993</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">28</p>
+                        <p class="elementid">Ni</p>
+                        <p class="elementdetail">58.693</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">29</p>
+                        <p class="elementid">Cu</p>
+                        <p class="elementdetail">63.546</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">30</p>
+                        <p class="elementid">Zn</p>
+                        <p class="elementdetail">65.38</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">31</p>
+                        <p class="elementid">Ga</p>
+                        <p class="elementdetail">69.723</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">32</p>
+                        <p class="elementid">Ge</p>
+                        <p class="elementdetail">72.63</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">1</p>
+                        <p class="elementid">As</p>
+                        <p class="elementdetail">74.992</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">1</p>
+                        <p class="elementid">Se</p>
+                        <p class="elementdetail">78.96</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">1</p>
+                        <p class="elementid">Br</p>
+                        <p class="elementdetail">79.904</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">1</p>
+                        <p class="elementid">Kr</p>
+                        <p class="elementdetail">83.798</p></li
+                ></ul>
+                <ul id="row5">
+                    <li class="clearbox"><p class="bordertext">5</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">37</p>
+                        <p class="elementid">Rb</p>
+                        <p class="elementdetail">85.468</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">38</p>
+                        <p class="elementid">Sr</p>
+                        <p class="elementdetail">87.62</p></li
+                    ><li class="pinkspacerbox">
+                        <p class="elementdetail">39</p>
+                        <p class="elementid">Y</p>
+                        <p class="elementdetail">88.906</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">40</p>
+                        <p class="elementid">Zr</p>
+                        <p class="elementdetail">91.224</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">41</p>
+                        <p class="elementid">Nb</p>
+                        <p class="elementdetail">92.906</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">42</p>
+                        <p class="elementid">Mo</p>
+                        <p class="elementdetail">95.96</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">43</p>
+                        <p class="elementid">Tc</p>
+                        <p class="elementdetail">[97.91]</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">44</p>
+                        <p class="elementid">Ru</p>
+                        <p class="elementdetail">101.07</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">45</p>
+                        <p class="elementid">Rh</p>
+                        <p class="elementdetail">102.91</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">46</p>
+                        <p class="elementid">Pd</p>
+                        <p class="elementdetail">106.42</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">47</p>
+                        <p class="elementid">Ag</p>
+                        <p class="elementdetail">107.87</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">48</p>
+                        <p class="elementid">Cd</p>
+                        <p class="elementdetail">112.41</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">49</p>
+                        <p class="elementid">In</p>
+                        <p class="elementdetail">114.82</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">50</p>
+                        <p class="elementid">Sn</p>
+                        <p class="elementdetail">118.71</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">51</p>
+                        <p class="elementid">Sb</p>
+                        <p class="elementdetail">121.76</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">52</p>
+                        <p class="elementid">Te</p>
+                        <p class="elementdetail">127.60</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">53</p>
+                        <p class="elementid">I</p>
+                        <p class="elementdetail">126.90</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">54</p>
+                        <p class="elementid">Xe</p>
+                        <p class="elementdetail">131.29</p></li
+                ></ul>
+                <ul id="row6">
+                    <li class="clearbox"><p class="bordertext">6</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">55</p>
+                        <p class="elementid">Cs</p>
+                        <p class="elementdetail">132.91</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">56</p>
+                        <p class="elementid">Ba</p>
+                        <p class="elementdetail">137.33</p></li
+                    ><li class="pinkspacerbox">
+                        <p class="elementdetail">71</p>
+                        <p class="elementid">Lu</p>
+                        <p class="elementdetail">174.97</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">72</p>
+                        <p class="elementid">Hf</p>
+                        <p class="elementdetail">178.49</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">73</p>
+                        <p class="elementid">Ta</p>
+                        <p class="elementdetail">180.95</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">74</p>
+                        <p class="elementid">W</p>
+                        <p class="elementdetail">183.84</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">75</p>
+                        <p class="elementid">Re</p>
+                        <p class="elementdetail">186.21</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">76</p>
+                        <p class="elementid">Os</p>
+                        <p class="elementdetail">190.23</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">77</p>
+                        <p class="elementid">Ir</p>
+                        <p class="elementdetail">192.22</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">78</p>
+                        <p class="elementid">Pt</p>
+                        <p class="elementdetail">195.08</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">79</p>
+                        <p class="elementid">Au</p>
+                        <p class="elementdetail">196.97</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">80</p>
+                        <p class="elementid">Hg</p>
+                        <p class="elementdetail">200.59</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">81</p>
+                        <p class="elementid">Tl</p>
+                        <p class="elementdetail">204.38</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">82</p>
+                        <p class="elementid">Pb</p>
+                        <p class="elementdetail">207.2</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">83</p>
+                        <p class="elementid">Bi</p>
+                        <p class="elementdetail">208.98</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">84</p>
+                        <p class="elementid">Po</p>
+                        <p class="elementdetail">[208.98]</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">85</p>
+                        <p class="elementid">At</p>
+                        <p class="elementdetail">[209.99]</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">86</p>
+                        <p class="elementid">Rn</p>
+                        <p class="elementdetail">[222.02]</p></li
+                ></ul>
+                <ul id="row7">
+                    <li class="clearbox"><p class="bordertext">7</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">87</p>
+                        <p class="elementid">Fr</p>
+                        <p class="elementdetail">[223.02]</p></li
+                    ><li class="bluebox">
+                        <p class="elementdetail">88</p>
+                        <p class="elementid">Ra</p>
+                        <p class="elementdetail">[226.03]</p></li
+                    ><li class="pinkspacerbox">
+                        <p class="elementdetail">103</p>
+                        <p class="elementid">Lr</p>
+                        <p class="elementdetail">[262.11]</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">104</p>
+                        <p class="elementid">Rf</p>
+                        <p class="elementdetail">[265.12]</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">105</p>
+                        <p class="elementid">Db</p>
+                        <p class="elementdetail">[268.13]</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">106</p>
+                        <p class="elementid">Sg</p>
+                        <p class="elementdetail">[271.13]</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">107</p>
+                        <p class="elementid">Bh</p>
+                        <p class="elementdetail">[270]</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">108</p>
+                        <p class="elementid">Hs</p>
+                        <p class="elementdetail">[277.15]</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">109</p>
+                        <p class="elementid">Mt</p>
+                        <p class="elementdetail">[276.15]</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">110</p>
+                        <p class="elementid">Ds</p>
+                        <p class="elementdetail">[281.16]</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">111</p>
+                        <p class="elementid">Rg</p>
+                        <p class="elementdetail">[280.16]</p></li
+                    ><li class="pinkbox">
+                        <p class="elementdetail">112</p>
+                        <p class="elementid">Cn</p>
+                        <p class="elementdetail">[285.17]</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">113</p>
+                        <p class="elementid">Uut</p>
+                        <p class="elementdetail">[284.18]</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">114</p>
+                        <p class="elementid">Fl</p>
+                        <p class="elementdetail">[289.19]</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">115</p>
+                        <p class="elementid">Uup</p>
+                        <p class="elementdetail">[288.19]</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">116</p>
+                        <p class="elementid">Lv</p>
+                        <p class="elementdetail">[293]</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">117</p>
+                        <p class="elementid">Uus</p>
+                        <p class="elementdetail">[294]</p></li
+                    ><li class="orangebox">
+                        <p class="elementdetail">118</p>
+                        <p class="elementid">Uuo</p>
+                        <p class="elementdetail">[294]</p></li
+                ></ul>
+                <ul id="lanthanoids">
+                    <li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearspacerbox"></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">57</p>
+                        <p class="elementid">La</p>
+                        <p class="elementdetail">138.91</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">58</p>
+                        <p class="elementid">Ce</p>
+                        <p class="elementdetail">140.12</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">59</p>
+                        <p class="elementid">Pr</p>
+                        <p class="elementdetail">140.91</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">60</p>
+                        <p class="elementid">Nd</p>
+                        <p class="elementdetail">144.24</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">61</p>
+                        <p class="elementid">Pm</p>
+                        <p class="elementdetail">[144.91]</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">62</p>
+                        <p class="elementid">Sm</p>
+                        <p class="elementdetail">150.36</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">63</p>
+                        <p class="elementid">Eu</p>
+                        <p class="elementdetail">151.96</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">64</p>
+                        <p class="elementid">Gd</p>
+                        <p class="elementdetail">157.25</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">65</p>
+                        <p class="elementid">Tb</p>
+                        <p class="elementdetail">158.93</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">66</p>
+                        <p class="elementid">Dy</p>
+                        <p class="elementdetail">162.50</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">167</p>
+                        <p class="elementid">Ho</p>
+                        <p class="elementdetail">164.93</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">68</p>
+                        <p class="elementid">Er</p>
+                        <p class="elementdetail">167.26</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">69</p>
+                        <p class="elementid">Tm</p>
+                        <p class="elementdetail">168.93</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">70</p>
+                        <p class="elementid">Yb</p>
+                        <p class="elementdetail">173.05</p></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                ></ul>
+                <ul id="actinoids">
+                    <li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearspacerbox"></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">89</p>
+                        <p class="elementid">Ac</p>
+                        <p class="elementdetail">[227.03]</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">90</p>
+                        <p class="elementid">Th</p>
+                        <p class="elementdetail">232.04</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">91</p>
+                        <p class="elementid">Pa</p>
+                        <p class="elementdetail">231.04</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">92</p>
+                        <p class="elementid">U</p>
+                        <p class="elementdetail">238.03</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">93</p>
+                        <p class="elementid">Np</p>
+                        <p class="elementdetail">[237.05]</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">94</p>
+                        <p class="elementid">Pu</p>
+                        <p class="elementdetail">[244.06]</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">95</p>
+                        <p class="elementid">Am</p>
+                        <p class="elementdetail">[243.06]</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">96</p>
+                        <p class="elementid">Cm</p>
+                        <p class="elementdetail">[247.07]</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">97</p>
+                        <p class="elementid">Bk</p>
+                        <p class="elementdetail">[247.07]</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">98</p>
+                        <p class="elementid">Cf</p>
+                        <p class="elementdetail">[251.08]</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">99</p>
+                        <p class="elementid">Es</p>
+                        <p class="elementdetail">[252.08]</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">100</p>
+                        <p class="elementid">Fm</p>
+                        <p class="elementdetail">[257.10]</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">101</p>
+                        <p class="elementid">Md</p>
+                        <p class="elementdetail">[258.10]</p></li
+                    ><li class="greenbox">                        
+                        <p class="elementdetail">102</p>
+                        <p class="elementid">No</p>
+                        <p class="elementdetail">[259.10]</p></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                ></ul>
+                <p class="fineprint">*Lathanoids&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</p>
+                <p class="fineprint">**Actinoids&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**</p>
+            </div>
+        </section>
+        <footer id=footerbar>
+            <p>by Troy Center, May 29, 2017, Coding Dojo assignment for html css.</p>
+        </footer>
+    </body>
+</html>

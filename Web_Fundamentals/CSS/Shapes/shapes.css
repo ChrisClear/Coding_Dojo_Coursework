@@ -1,0 +1,84 @@
+/***************************************************************/
+/* Created: 5/25/2017 by Troy Center, troycenter1@gmail.com.   */
+/* Coding Dojo HTML CSS modernize project for yellowbelt exam  */
+/***************************************************************/
+/* Created: 5/25/2017 by Troy Center, troycenter1@gmail.com. 
+Coding Dojo HTML CSS modernize project for yellowbelt exam*/
+
+/***************************************************/
+/*               CSS reset settings                */
+/***************************************************/
+
+*{
+    margin: 20px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/***************************************************/
+/*               Header                            */
+/***************************************************/
+
+#square {
+    width: 140px; 
+    height: 140px; 
+    background: blue;
+}
+#rectangle {
+    width: 200px; 
+    height: 140px; 
+    background: blue;
+}
+#circle {
+    width: 140px; 
+    height: 140px; 
+    background: blue;
+	border-radius: 70px;
+}
+#circlenoborders {
+
+}
+#triangle-up {
+	width: 0;
+	height: 0;
+    border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 140px solid blue;
+}
+#triangle-upnoborders {
+    width: 140px;
+    height: 140px;
+    background: red;
+    clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%)
+    
+}
+#pacman {
+    width: 140px; 
+    height: 140px; 
+    background: blue;
+	border-radius: 70px;
+    }
+#pacmanmouth {
+    width: 140px;
+    height: 140px; 
+    position: relative;
+    left: 70px;
+    background:white;
+    transform: rotate(45deg);
+}
+
+#pacmannoborders{
+    width: 140px; 
+    height: 140px; 
+    background: red;  
+    clip-path: circle(70px at 70px 70px);
+}
+#pacmannobordersmouth{
+    width: 140px; 
+    height: 140px; 
+    background: white;
+    transform: rotate(45deg);
+    position: relative; 
+    left: 100px;
+    z-index: 1;
+]

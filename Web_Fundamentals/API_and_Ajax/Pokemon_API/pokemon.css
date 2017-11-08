@@ -1,0 +1,98 @@
+/*******************************************************************/
+/* Created: June 2 2017 by Troy Center, troycenter1@gmail.com.     */
+/* COding Dojo practice with external images, paired programming.  */
+/*******************************************************************/
+
+/***************************************************/
+/*               CSS reset settings                */
+/***************************************************/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Acme;
+}
+
+/***************************************************/
+/*    CSS for title bar                            */
+/***************************************************/
+
+
+#titlebar {
+    height: 50px; 
+    width: 1300px; 
+    text-align: center; 
+    background-image: linear-gradient(75deg, darkgrey,grey);
+    position: fixed;
+}
+
+/***************************************************/
+/*    CSS pokemon list, id's are in pokeid field   */
+/***************************************************/
+
+#pokemain {
+    width: 1300px;
+    height: 2600px;
+    font-family: Acme;
+}
+#pokearea {
+    width: 1000px;
+    height: 2500px;
+    background-color: grey;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+/***************************************************/
+/*     CSS Information Area (in red border)      */
+/***************************************************/
+
+#pokeinfo {
+    border: 25px solid red;
+    background-color: white;
+    margin-top: 50px;
+    width: 250px;
+    height: fit-content;
+    display: inline-block;
+    position: fixed;
+}
+#pokeinfo h2 {
+    text-align: center;
+    margin: 15px;
+}
+#pokeinfo img {
+    margin: auto;
+    width: 80px;
+    display: block;
+}
+#pokeinfo #dividerbar {
+    width: 200px;
+    height: 3px;
+    margin: 10px auto;
+    border-bottom: 3px groove purple;
+}
+#pokeinfo h3 {
+    margin: 10px 15px;
+}
+#pokeinfo ul {
+    list-style: none;
+    margin-left: 30px;
+}
+#pokeinfo p {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 15px;
+
+}
+
+/***************************************************/
+/*               CSS footer                        */
+/***************************************************/
+
+footer {
+    font-size: 8px;
+    font-weight: lighter;
+    text-align: center;
+}
