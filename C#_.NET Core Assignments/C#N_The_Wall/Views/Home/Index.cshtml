@@ -1,0 +1,54 @@
+@model thewall.Models.User
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Coding Dojo Wall</h1>
+<div id="loginarea">
+    <div id="register">
+        <h4>Register</h4>
+        <p>Fill out this form to register as a new user</p>
+        <div id="regerrors">
+            @foreach(var error in ViewBag.RegErrors)
+            {
+                if(@error.Errors.Count > 0)
+                {
+                    <p class="registerformerrors">@error.Errors[0].ErrorMessage</p>
+                }
+            }
+        </div>
+        <div id="registerlables">
+            <label for="firstname">First Name</label><br><br>
+            <label for="lastname">Last Name</label><br><br>
+            <label for="email">Email</label><br><br>
+            <label for="username">Username</label><br><br>
+            <label for="password">Password</label><br><br>
+            <label for="cpassword">Confirm Password</label>
+        </div>
+        <div id="registerfields">
+            <form id="registerform" action="register" method="post">
+                <input type="text" id="firstname" name="firstname"><br><br>
+                <input type="text" id="lastname" name="lastname"><br><br>
+                <input type="text" id="email" name="email"><br><br>
+                <input type="text" id="username" name="username"><br><br>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="password" id="cpassword" name="cpassword"><br><br><br>
+                <input type="submit" name="register" value="Register">
+            </form>
+        </div>
+    </div>
+    <div id="login">
+        <h4>Login</h4>            
+        <p>If you have a login, login here</p>
+        <div id="loginlabels">
+            <label for="email">Email</label><br><br>
+            <label for="password">Password</label>
+        </div>
+        <div id="loginfields">
+            <form id="loginform" action="login" method="post">
+                <input type="text" id="username" name="username"><br><br>
+                <input type="password" id="password" name="password"><br><br><br>
+                <input type="submit" name="login" value="Login">
+            </form>
+        </div>
+    </div>
+</div>
