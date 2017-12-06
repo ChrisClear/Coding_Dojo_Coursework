@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function Ninja(name) {
+            this.name = name;
+            this.health = 100;
+            this.strength = 3;
+            this.speed = 3;
+            // This function is a local one (inside the class).
+            this.showStats = function () {
+                console.log(
+                    `Name: ${this.name}. Health: ${this.health}. Strength: ${this.strength}. Speed: ${this.speed}`
+                );
+                return this;
+
+            };
+
+            this.kick = function (attacked_ninja) {
+                if (this instanceof Ninja) {
+                    attacked_ninja.health -= (15 * this.strength);
+                    console.log(
+                        `${attacked_ninja.name} was kicked by ${this.name} and lost ${(15 * this.strength)} health. `
+                    )
+                } else {
+                    console.log("Sorry, you can only punch if you are a Ninja (instance of Ninja class)")
+                }
+                return this;
+            };
+        }
+
+        Ninja.prototype.sayName = function () {
+            console.log(`Ninja Name: ${this.name}`);
+            return this;
+        }
+
+        Ninja.prototype.drinkSake = function () {
+            this.health += 10;
+            return this;
+        }
+
+        Ninja.prototype.punch = function (attacked_ninja) {
+            if (this instanceof Ninja) {
+                attacked_ninja.health -= 5;
+                console.log(
+                    `${attacked_ninja.name} was punched by ${ this.constructor.name} ${this.name} and lost 5 health`
+                )
+            } else {
+                console.log("Sorry, you can only punch if you are a Ninja (instance of Ninja class)")
+            }
+            return this;
+        }
+
+        const ninja1 = new Ninja("Mendel");
+        const ninja2 = new Ninja("Michael Choi");
+
+        ninja1.punch(ninja2);
+        ninja1.kick(ninja2);
+    </script>
+</body>
+
+</html>

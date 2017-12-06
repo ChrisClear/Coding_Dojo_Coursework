@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninja Class 3</title>
+</head>
+
+<body>
+    <script>
+        class Ninja {
+            constructor(name) {
+                this.name = name
+                this.health = 100;
+                this.strength = 3;
+                this.speed = 3;
+            }
+            sayName() {
+                console.log(`Ninja name is: ${this.name}`);
+                return this;
+            }
+            showStats() {
+                console.log(`Health: ${this.health}. Strength: ${this.strength}. Speed: ${this.speed}.`);
+                return this;
+            }
+            drinkSake() {
+                this.health += 10;
+                return this;
+            }
+
+        }
+
+        class Sensei extends Ninja {
+            constructor(name) {
+                super(name);
+                this.speed = 10;
+                this.strength = 10;
+                this.health = 200;
+                this.wisdom = 10;
+            }
+
+            speakWisdom() {
+                super.drinkSake();
+                console.log("What one programmer can do in one month, two programmers can do in two months. ~ Reddit");
+                return this;
+            }
+        }
+
+            
+        const ninja1 = new Ninja("Mendel");
+        ninja1.sayName().showStats().drinkSake().drinkSake().showStats();
+
+        const sensei1 = new Sensei("Baka");
+        sensei1.speakWisdom().showStats();
+
+    </script>
+</body>
+
+</html>
