@@ -1,0 +1,41 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center; width: 400px; padding: 2rem; ">
+  <h1>
+    Welcome, {{ user.firstName }}!
+ 
+    
+
+  </h1>
+  <img width="300" [alt]="myStr" src="https://ct.weirdnutdaily.com/ol/wn/sw/i58/2/1/26/wnd_2dee0fb6f2b0c44e8a26a8693323074d.jpg">
+
+<!-- <h2>{{title}}</h2> -->
+<p><i>Favorite Quote: {{myStr}} </i></p>
+<!-- <input type="text" [value]="x">
+<img [src]="y" alt="myStr"> -->
+<h3> Today's Date:<div style="color:red">   {{ today | date:'EEEE || MMMM d, y || h:mm a'}}</div></h3>
+<h3>{{name}}</h3>
+
+{{user | json}} <BR>
+{{user | json | uppercase}}
+{{date}}
+<ul>
+   Hobbies:
+  <li *ngFor="let num of user.hobbies">
+      {{num}}
+  </li>
+  
+</ul>
+<div [ngStyle]="{ 
+  'background-color': 'black',
+  'color' : 'white',
+  'font-weight': '400px'}
+">
+<h1>{{user.firstName}}'s Cool Status:</h1>
+<h2 *ngIf='vadesCool'>True (Using ngStyle)</h2>
+<h2 *ngIf='vadesCool' [ngClass]="{'black': 'true', '400px': 'false'}">True (Using ngClass)</h2>
+
+<h2 *ngIf='!vadesCool'>False</h2>
+</div>
+
+</div>
+

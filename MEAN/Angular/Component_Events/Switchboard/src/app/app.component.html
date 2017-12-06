@@ -1,0 +1,40 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <div style="background-color: pink; padding-top: 1rem;">
+      <span *ngFor='let button of buttons; let idx = index'>
+        
+        
+          <button *ngIf="buttons[idx] === 'On'" [ngClass]="{ button_status: buttons[button] }" [ngStyle]="{
+            'background-color': 'green',
+          'width': '100px',
+          'height': '100px',
+          'display': 'inline-block'
+          }"
+          (click)='ChangeStatus(idx)'>{{button}}</button>
+          
+          <button *ngIf="buttons[idx] === 'Off'; " [ngClass]="{ button_status: button[button] }" [ngStyle]="{
+            'background-color': 'red',
+          'width': '100px',
+          'height': '100px',
+          'display': 'inline-block'
+          }"
+           (click)='ChangeStatus(idx).Declare(idx)' >{{button}}</button>
+          </span>
+    
+</div>
+
+<BR>
+<button type="button"(click)="Reset()"> Reset</button>
+<h3>Activity Log:</h3>
+<ul>
+  
+  <li *ngFor='let message of messages;'[ngStyle]="{'color': color}" > {{message}}</li>
+
+
+</ul>
+  
+  </div>
+
